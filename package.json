@@ -1,0 +1,30 @@
+{
+  "name": "theater",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "rollup": "^0.43.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.1.1",
+    "eslint-config-google": "^0.8.0",
+    "rollup": "^0.43.0",
+    "rollup-watch": "^4.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rszaloki/theater.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rszaloki/theater/issues"
+  },
+  "homepage": "https://github.com/rszaloki/theater#readme"
+}
